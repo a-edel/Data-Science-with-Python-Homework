@@ -1,14 +1,8 @@
-def delta():
-    age = -1
-    while not(0 <= age <= 100):
-        age = int(input("What is your age? "))
-    return age
-
-
 def main():
-    age = delta()
-    print("Your age is: " + str(age))
-
+    for i in range(1, 1001):
+        if '3' in str(i):
+            print(i, end=" | ")
+            
 
 if __name__ == '__main__':
     main()
